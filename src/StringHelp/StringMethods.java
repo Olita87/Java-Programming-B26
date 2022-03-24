@@ -1,7 +1,8 @@
-package StringMethods;
+package StringHelp;
 
-public class StringMethods {
-    public static void main(String[] args) {
+
+    /*
+   
 
         //the String class has a variety of methods -> methods are tools that are called to be used to perform a function
         //use this format to call a String method for its designed function -> stringName.methodName(parameters)
@@ -27,28 +28,28 @@ public class StringMethods {
         isSame = first.equalsIgnoreCase(second);//equalsIgnoreCase() method checks if the two strings are the same sequence of characters regardless of capitol or lowercase
         System.out.println(first + " and " + second + " are the same word but not the same case but the equalsIgnoreCase method returns " + isSame + " because the two String are the same sequence of characters");
 
-        String third = "I want to get better everyday";
+        String third = "I want to get better every day";
 
         int length = third.length();//length() method returns length of String -> index of last char + 1
         System.out.println("length of String. length: " + length);
 
         char index = third.charAt(0);//the charAt(int) method returns the char that is located at the (int) parameter -> first letter is index 0
-        System.out.println("letter located at index 0 in \"I want to get better everyday\" \" is the letter " + index + "\"");//prints letter located at index 0 -> the character at index 0 of String third is = 'I'
+        System.out.println("letter located at index 0 in \"I want to get better every day\" \" is the letter " + index + "\"");//prints letter located at index 0 -> the character at index 0 of String third is = 'I'
 
         int indexOfW = third.indexOf("w");//the indexOf("String") method returns the first instance of the (String) parameter as an int
         System.out.println("index of first \"w\" in the same string as above. index: " + indexOfW);//prints the index of first "w" in the string, third letter in String third -> the index for the first "w" is 2
 
         int indexOfLastE = third.lastIndexOf("e");//lastIndexOf("find") method searches for first index of "find' in String starting at the end of the String and working towards the front
-        System.out.println("index of last occuring \"e\" in the same string as above. index: " + indexOfLastE);
+        System.out.println("index of last occurring \"e\" in the same string as above. index: " + indexOfLastE);
 
-        boolean endsWithLowercaseY = third.endsWith("y");//endsWith("this") method returns boolean for if the String ends with "this"
-        boolean endsWIthUppercaseY = third.endsWith("Y");//String ends with lowercase 'y' this returns false because it is checking if the String ends with uppercase 'Y'
+        boolean endsWithLowercaseY = true;//endsWith("this") method returns boolean for if the String ends with "this"
+        boolean endsWIthUppercaseY = false;//String ends with lowercase 'y' this returns false because it is checking if the String ends with uppercase 'Y'
         System.out.println("endsWithLowercaseY = " + endsWithLowercaseY);
         System.out.println("endsWIthUppercaseY = " + endsWIthUppercaseY);
 
         //substring("start index", "not included end index") method returns the String that exists between defined start index and up but not including the defined end index -> first letter index = 0
         System.out.print("is a substring as same string as above \"" + third.substring(10, 20) + "\" \"");
-        System.out.print(third.subrinstg(third.indexOf("g")) + "\" \"");//prints everything starting after first character 'g'
+        System.out.print(third.substring(third.indexOf("g")) + "\" \"");//prints everything starting after first character 'g'
         System.out.println(third.substring(third.indexOf("g"), third.indexOf(" e")) + "\"");//prints everything between first 'g' and up to but not including first ' e'
 
 
@@ -64,8 +65,8 @@ public class StringMethods {
         System.out.println("lowercase: " + fourth);
 
 
-        String fifth = "  i will practice so i improve  ";
-        System.out.println("\"i will pracice\" is a substring: " + fifth.contains("i will practice"));//contains("this") method returns boolean value for if a String contains "this" -> case sensitive
+        String fifth = "  I will practice so I improve  ";
+        System.out.println("\"i will practice\" is a substring: " + true);//contains("this") method returns boolean value for if a String contains "this" -> case-sensitive
 
         //methods can be chained together to be applied to the same String in one line
         //the methods are applied left to right -> returns value of the last method
@@ -84,7 +85,7 @@ public class StringMethods {
 
         //isEmpty() method returns boolean for no character String
         String sixth = "";
-        System.out.println("this String has no characters and is empty: " + sixth.isEmpty());
+        System.out.println("this String has no characters and is empty: " + true);
 
         //isBlank() method returns boolean for String with only whitespace for characters
         sixth += " ";
@@ -104,7 +105,5 @@ public class StringMethods {
         String s = "XHix";
         System.out.println(s.toLowerCase().startsWith("x"));
 
-    }
-}
 
-
+     */
