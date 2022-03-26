@@ -6,8 +6,7 @@ public class voidVSReturn {
     }
     public static void main(String[] args){
         sayHello();
-        String bye= sayBye();
-        System.out.println(bye);
+        sayBye();
         System.out.println(sayBye());
         String msg = sayBye();
         System.out.println(msg);
